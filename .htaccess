@@ -1,0 +1,33 @@
+RewriteEngine On 
+
+RewriteCond %{SERVER_PORT} 80
+
+RewriteCond %{HTTP_HOST} ^(www\.)?cimr\.in
+
+RewriteRule ^(.*)$ https://www.cimr.in/$1 [R,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index\.html 
+RewriteRule ^(.*)index.html$ /$1 [R=301,L] 
+
+ErrorDocument 404 /404.html
+
+Redirect 301 /contactus.html /contact-us.html
+Redirect 301 /alumniNetwork.html /alumni-network.html
+Redirect 301 /aboutus.html /about-us.html
+Redirect 301 /programmes.html /programs.html
+Redirect 301 /facultyResearch.html /faculty-research.html
+Redirect 301 /corporateConnect.html /corporate-connect.html
+Redirect 301 /lifeAtChetanas.html /life-at-chetanas.html
+Redirect 301 /facultyResearch.html /faculty-research.html
+
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:9zgDaVDnNH
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u284516237/domains/cityandtalent.com/public_html/cimr/.htpasswd
+Require valid-user
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE 9zgDaVDnNH:PWPROTECTID
+

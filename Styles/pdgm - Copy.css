@@ -1,0 +1,54 @@
+.pgdmBanner {
+    /* background-image: url(../images/programmes/Programmes_Top_Banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px; */
+    margin-bottom: 50px;
+}
+
+
+#peo table,
+#peo th,
+#peo td {
+    border: 1px solid #E5AC3F;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mycaption {
+    color: #E5AC3F;
+    font-size: 26px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #E5AC3F;
+}
+
+th {
+    padding: 10px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+td {
+    padding: 10px;
+	text-align: left;
+}
+
+
+.separator{
+    margin-top: 70px;
+}

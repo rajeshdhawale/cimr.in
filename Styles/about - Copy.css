@@ -1,0 +1,236 @@
+.aboutBanner{
+    /* background-image: url(../images/aboutUs/About%20Us%20Top%20banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px; */
+    margin-bottom: 50px;
+}
+
+.separator{
+    margin-top: 70px;
+}
+
+
+/*About Page CSS*/
+ .about_container{
+    max-width: 100%;
+}
+
+.board_title {
+    color: #E5AC3F;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 28px;
+}
+	
+	.board_title:before{
+	    content: "";
+        flex: 1 1;
+        border-bottom: 2px solid;
+        margin: auto;
+        max-width: 300px;
+	    margin-right: 30px;
+	}
+	
+	.board_title:after{
+	    content: "";
+        flex: 1 1;
+        border-bottom: 2px solid;
+        margin: auto;
+        max-width: 300px;
+        margin-left: 30px;
+	}
+	
+    .innerText{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+    }
+    .Madhukarrao {
+        display: flex;
+        padding-bottom: 16px;
+    }
+    .Madhukarrao_text {
+        padding-left: 78px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        text-align: left !important;
+    }
+    .Madhukarrao_img {
+        width: 160px;
+    }
+    .managing_sec1 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .managing_col1 {
+        text-align: center;
+    }
+    .col-md-4.yellowLineSeperatorClass {
+        border-right: 2px solid #FFCB00;
+    }
+    .cimr_text {
+        padding: 24px;
+    }
+    .cimr {
+        display: flex;
+    }
+    .vision_box {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    img.bannerImageClass {
+        background-size: cover;
+        width: -webkit-fill-available;
+        padding-bottom: 58px;
+    
+    }
+    .our_img {
+        text-align: center;
+        padding-bottom: 24px;
+    }
+    section.message.container {
+        max-width: 92% !important;
+    }
+    table.container {
+        max-width: 92% !important;
+    }
+    section.ceomessages.container {
+        max-width: 92% !important;
+        padding-bottom: 72px;
+    }
+    .col-md-6.yellowLineSeperatorClass {
+        border-right: 2px solid #FFCB00;
+    }
+    p.desktopFontSmall {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+    }
+    p.desktopFont {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+    }
+    .dr_box {
+        display: flex;
+    }
+    .dr_info {
+        padding-left: 36px;
+    }
+    .abtextSection {
+        margin: auto;
+        padding: 50px 0px 0px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        max-width: 60%;
+     }
+     .vission {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0px;
+    }
+    .vission_col1 {
+        width: 33%;
+        text-align: center;
+        padding: 20px;
+    }
+    h5.vission_title {
+        color: #EB7A00;
+        text-align: center;
+        padding-top: 8px;
+        /* padding-bottom: 28px; */
+    }
+    .first_pad{
+        padding-bottom: 30px;
+        width: 130px;
+    }
+    .snd_pad{
+        padding-bottom: 22px;
+        width: 100px;
+        margin-left: 4vh;
+    }
+    .trd_pad{
+        padding-bottom: 22px;
+        width: 100px;
+    }
+    .teamimg{
+        width: 300px;
+    }
+    .extsec{
+        padding-top: 50px;
+        width: 100%;
+        display: block;
+    }
+    .abtextSection1 {
+        margin: auto;
+        padding: 50px 0px 0px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        max-width: 70%;
+     }
+     .abtextSection2 {
+        margin: auto;
+        padding: 50px 0px 0px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;
+        max-width: 70%;
+     }
+
+    @media only screen and (max-width: 800px) {
+        img.singleBannerImageClass {
+        width: -webkit-fill-available !important;
+    }
+        h2.board_title {
+            display: block !important;
+            text-align: center !important;
+        }
+        .vission {
+            display: block !important;
+        }
+        .vission_col1 {
+            width: 100% !important;
+            text-align: center !important;
+        
+        }
+        .dr_img {
+            text-align: center !important;
+        }
+        .dr_info {
+            padding-left: 0px !important;
+        }
+        .col-md-4.yellowLineSeperatorClass {
+            border-color: white !important;
+        }
+        .col-md-6.yellowLineSeperatorClass {
+            border-color: white !important;
+        }
+        .Madhukarrao {
+            display: block !important;
+        }
+        .Madhukarrao_text {
+            padding-left: 0px !important;
+        }
+        .col-md-12.container-fluid {
+            display: block !important;
+        }
+        .dr_box {
+            display: block !important;
+        }
+        .managing_sec1 {
+            display: block !important;
+        }
+    }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CIMR Faculty Directory (Animated Popups)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Meet Our Core Faculty</h1>
+    <p>Discover the educators leading at CIMR.</p>
+  </header>
+  <main>
+    <section class="faculty-grid">
+      <!-- Faculty Card 1 -->
+      <article class="faculty-card dept-marketing">
+        <span class="department-badge">Marketing</span>
+        <h2>Dr. Kavita Rai</h2>
+        <p>Brand management, Digital marketing</p>
+        <button class="modal-btn" onclick="openModal('kavita-modal')">View Profile</button>
+      </article>
+      <!-- Faculty Card 2 -->
+      <article class="faculty-card dept-finance">
+        <span class="department-badge">Finance</span>
+        <h2>Dr. Arjun Mehta</h2>
+        <p>Risk management, Sustainable finance</p>
+        <button class="modal-btn" onclick="openModal('arjun-modal')">View Profile</button>
+      </article>
+    </section>
+
+    <!-- Popups -->
+    <div id="kavita-modal" class="profile-modal">
+      <div class="profile-modal-content">
+        <span class="close" onclick="closeModal('kavita-modal')">&times;</span>
+        <h2>Dr. Kavita Rai</h2>
+        <img src="faculty-kavita.jpg" alt="Dr. Kavita Rai" style="width:120px; border-radius:50%;">
+        <p>Expert in branding and digital marketing. Recent publication: “Brand Strategies in India.”</p>
+        <a href="mailto:kavita.rai@cimr.in">Email</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+    <div id="arjun-modal" class="profile-modal">
+      <div class="profile-modal-content">
+        <span class="close" onclick="closeModal('arjun-modal')">&times;</span>
+        <h2>Dr. Arjun Mehta</h2>
+        <img src="faculty-arjun.jpg" alt="Dr. Arjun Mehta" style="width:120px; border-radius:50%;">
+        <p>Research in risk management and sustainable finance. Awarded "Best Teacher 2024".</p>
+        <a href="mailto:arjun.mehta@cimr.in">Email</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 CIMR. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
